@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90518F231CB94CD7002ECDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90518F211CB94CD7002ECDB2 /* Main.storyboard */; };
+		90518F251CB94CD7002ECDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90518F241CB94CD7002ECDB2 /* Assets.xcassets */; };
+		90518F281CB94CD7002ECDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90518F261CB94CD7002ECDB2 /* LaunchScreen.storyboard */; };
+		90518F331CB94CD7002ECDB2 /* Nav_____modelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90518F321CB94CD7002ECDB2 /* Nav_____modelTests.m */; };
+		90518F3E1CB94CD7002ECDB2 /* Nav_____modelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90518F3D1CB94CD7002ECDB2 /* Nav_____modelUITests.m */; };
+		90518F561CB94D92002ECDB2 /* ABNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90518F511CB94D92002ECDB2 /* ABNavController.m */; };
+		90518F571CB94D92002ECDB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90518F531CB94D92002ECDB2 /* ViewController.m */; };
+		90518F5C1CB94D9E002ECDB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90518F5A1CB94D9E002ECDB2 /* AppDelegate.m */; };
+		90518F5D1CB94D9E002ECDB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90518F5B1CB94D9E002ECDB2 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90518F2F1CB94CD7002ECDB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90518F0D1CB94CD7002ECDB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90518F141CB94CD7002ECDB2;
+			remoteInfo = "Nav全屏滑动的model";
+		};
+		90518F3A1CB94CD7002ECDB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90518F0D1CB94CD7002ECDB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90518F141CB94CD7002ECDB2;
+			remoteInfo = "Nav全屏滑动的model";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90518F151CB94CD7002ECDB2 /* Nav全屏滑动的model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nav全屏滑动的model.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90518F221CB94CD7002ECDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90518F241CB94CD7002ECDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90518F271CB94CD7002ECDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90518F291CB94CD7002ECDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90518F2E1CB94CD7002ECDB2 /* Nav全屏滑动的modelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nav全屏滑动的modelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90518F321CB94CD7002ECDB2 /* Nav_____modelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Nav_____modelTests.m"; sourceTree = "<group>"; };
+		90518F341CB94CD7002ECDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90518F391CB94CD7002ECDB2 /* Nav全屏滑动的modelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nav全屏滑动的modelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90518F3D1CB94CD7002ECDB2 /* Nav_____modelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Nav_____modelUITests.m"; sourceTree = "<group>"; };
+		90518F3F1CB94CD7002ECDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90518F501CB94D92002ECDB2 /* ABNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNavController.h; sourceTree = "<group>"; };
+		90518F511CB94D92002ECDB2 /* ABNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNavController.m; sourceTree = "<group>"; };
+		90518F521CB94D92002ECDB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90518F531CB94D92002ECDB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90518F591CB94D9E002ECDB2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90518F5A1CB94D9E002ECDB2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90518F5B1CB94D9E002ECDB2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90518F121CB94CD7002ECDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90518F2B1CB94CD7002ECDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90518F361CB94CD7002ECDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90518F0C1CB94CD7002ECDB2 = {
+			isa = PBXGroup;
+			children = (
+				90518F171CB94CD7002ECDB2 /* Nav全屏滑动的model */,
+				90518F311CB94CD7002ECDB2 /* Nav全屏滑动的modelTests */,
+				90518F3C1CB94CD7002ECDB2 /* Nav全屏滑动的modelUITests */,
+				90518F161CB94CD7002ECDB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90518F161CB94CD7002ECDB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90518F151CB94CD7002ECDB2 /* Nav全屏滑动的model.app */,
+				90518F2E1CB94CD7002ECDB2 /* Nav全屏滑动的modelTests.xctest */,
+				90518F391CB94CD7002ECDB2 /* Nav全屏滑动的modelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90518F171CB94CD7002ECDB2 /* Nav全屏滑动的model */ = {
+			isa = PBXGroup;
+			children = (
+				90518F4E1CB94D92002ECDB2 /* Classes */,
+				90518F211CB94CD7002ECDB2 /* Main.storyboard */,
+				90518F241CB94CD7002ECDB2 /* Assets.xcassets */,
+				90518F581CB94D9E002ECDB2 /* Other */,
+				90518F261CB94CD7002ECDB2 /* LaunchScreen.storyboard */,
+				90518F181CB94CD7002ECDB2 /* Supporting Files */,
+			);
+			path = "Nav全屏滑动的model";
+			sourceTree = "<group>";
+		};
+		90518F181CB94CD7002ECDB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90518F291CB94CD7002ECDB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90518F311CB94CD7002ECDB2 /* Nav全屏滑动的modelTests */ = {
+			isa = PBXGroup;
+			children = (
+				90518F321CB94CD7002ECDB2 /* Nav_____modelTests.m */,
+				90518F341CB94CD7002ECDB2 /* Info.plist */,
+			);
+			path = "Nav全屏滑动的modelTests";
+			sourceTree = "<group>";
+		};
+		90518F3C1CB94CD7002ECDB2 /* Nav全屏滑动的modelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90518F3D1CB94CD7002ECDB2 /* Nav_____modelUITests.m */,
+				90518F3F1CB94CD7002ECDB2 /* Info.plist */,
+			);
+			path = "Nav全屏滑动的modelUITests";
+			sourceTree = "<group>";
+		};
+		90518F4E1CB94D92002ECDB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90518F4F1CB94D92002ECDB2 /* Controller */,
+				90518F541CB94D92002ECDB2 /* Model */,
+				90518F551CB94D92002ECDB2 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		90518F4F1CB94D92002ECDB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90518F501CB94D92002ECDB2 /* ABNavController.h */,
+				90518F511CB94D92002ECDB2 /* ABNavController.m */,
+				90518F521CB94D92002ECDB2 /* ViewController.h */,
+				90518F531CB94D92002ECDB2 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90518F541CB94D92002ECDB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90518F551CB94D92002ECDB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90518F581CB94D9E002ECDB2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				90518F591CB94D9E002ECDB2 /* AppDelegate.h */,
+				90518F5A1CB94D9E002ECDB2 /* AppDelegate.m */,
+				90518F5B1CB94D9E002ECDB2 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90518F141CB94CD7002ECDB2 /* Nav全屏滑动的model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90518F421CB94CD7002ECDB2 /* Build configuration list for PBXNativeTarget "Nav全屏滑动的model" */;
+			buildPhases = (
+				90518F111CB94CD7002ECDB2 /* Sources */,
+				90518F121CB94CD7002ECDB2 /* Frameworks */,
+				90518F131CB94CD7002ECDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nav全屏滑动的model";
+			productName = "Nav全屏滑动的model";
+			productReference = 90518F151CB94CD7002ECDB2 /* Nav全屏滑动的model.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90518F2D1CB94CD7002ECDB2 /* Nav全屏滑动的modelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90518F451CB94CD7002ECDB2 /* Build configuration list for PBXNativeTarget "Nav全屏滑动的modelTests" */;
+			buildPhases = (
+				90518F2A1CB94CD7002ECDB2 /* Sources */,
+				90518F2B1CB94CD7002ECDB2 /* Frameworks */,
+				90518F2C1CB94CD7002ECDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90518F301CB94CD7002ECDB2 /* PBXTargetDependency */,
+			);
+			name = "Nav全屏滑动的modelTests";
+			productName = "Nav全屏滑动的modelTests";
+			productReference = 90518F2E1CB94CD7002ECDB2 /* Nav全屏滑动的modelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90518F381CB94CD7002ECDB2 /* Nav全屏滑动的modelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90518F481CB94CD7002ECDB2 /* Build configuration list for PBXNativeTarget "Nav全屏滑动的modelUITests" */;
+			buildPhases = (
+				90518F351CB94CD7002ECDB2 /* Sources */,
+				90518F361CB94CD7002ECDB2 /* Frameworks */,
+				90518F371CB94CD7002ECDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90518F3B1CB94CD7002ECDB2 /* PBXTargetDependency */,
+			);
+			name = "Nav全屏滑动的modelUITests";
+			productName = "Nav全屏滑动的modelUITests";
+			productReference = 90518F391CB94CD7002ECDB2 /* Nav全屏滑动的modelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90518F0D1CB94CD7002ECDB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Abel;
+				TargetAttributes = {
+					90518F141CB94CD7002ECDB2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					90518F2D1CB94CD7002ECDB2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 90518F141CB94CD7002ECDB2;
+					};
+					90518F381CB94CD7002ECDB2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 90518F141CB94CD7002ECDB2;
+					};
+				};
+			};
+			buildConfigurationList = 90518F101CB94CD7002ECDB2 /* Build configuration list for PBXProject "Nav全屏滑动的model" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90518F0C1CB94CD7002ECDB2;
+			productRefGroup = 90518F161CB94CD7002ECDB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90518F141CB94CD7002ECDB2 /* Nav全屏滑动的model */,
+				90518F2D1CB94CD7002ECDB2 /* Nav全屏滑动的modelTests */,
+				90518F381CB94CD7002ECDB2 /* Nav全屏滑动的modelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90518F131CB94CD7002ECDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90518F281CB94CD7002ECDB2 /* LaunchScreen.storyboard in Resources */,
+				90518F251CB94CD7002ECDB2 /* Assets.xcassets in Resources */,
+				90518F231CB94CD7002ECDB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90518F2C1CB94CD7002ECDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90518F371CB94CD7002ECDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90518F111CB94CD7002ECDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90518F571CB94D92002ECDB2 /* ViewController.m in Sources */,
+				90518F561CB94D92002ECDB2 /* ABNavController.m in Sources */,
+				90518F5D1CB94D9E002ECDB2 /* main.m in Sources */,
+				90518F5C1CB94D9E002ECDB2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90518F2A1CB94CD7002ECDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90518F331CB94CD7002ECDB2 /* Nav_____modelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90518F351CB94CD7002ECDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90518F3E1CB94CD7002ECDB2 /* Nav_____modelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90518F301CB94CD7002ECDB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90518F141CB94CD7002ECDB2 /* Nav全屏滑动的model */;
+			targetProxy = 90518F2F1CB94CD7002ECDB2 /* PBXContainerItemProxy */;
+		};
+		90518F3B1CB94CD7002ECDB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90518F141CB94CD7002ECDB2 /* Nav全屏滑动的model */;
+			targetProxy = 90518F3A1CB94CD7002ECDB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90518F211CB94CD7002ECDB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90518F221CB94CD7002ECDB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90518F261CB94CD7002ECDB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90518F271CB94CD7002ECDB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90518F401CB94CD7002ECDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90518F411CB94CD7002ECDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90518F431CB94CD7002ECDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav全屏滑动的model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Nav-----model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90518F441CB94CD7002ECDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav全屏滑动的model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Nav-----model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90518F461CB94CD7002ECDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nav全屏滑动的modelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Nav-----modelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nav全屏滑动的model.app/Nav全屏滑动的model";
+			};
+			name = Debug;
+		};
+		90518F471CB94CD7002ECDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nav全屏滑动的modelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Nav-----modelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nav全屏滑动的model.app/Nav全屏滑动的model";
+			};
+			name = Release;
+		};
+		90518F491CB94CD7002ECDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nav全屏滑动的modelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Nav-----modelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nav全屏滑动的model";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		90518F4A1CB94CD7002ECDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nav全屏滑动的modelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Nav-----modelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nav全屏滑动的model";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90518F101CB94CD7002ECDB2 /* Build configuration list for PBXProject "Nav全屏滑动的model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90518F401CB94CD7002ECDB2 /* Debug */,
+				90518F411CB94CD7002ECDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90518F421CB94CD7002ECDB2 /* Build configuration list for PBXNativeTarget "Nav全屏滑动的model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90518F431CB94CD7002ECDB2 /* Debug */,
+				90518F441CB94CD7002ECDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90518F451CB94CD7002ECDB2 /* Build configuration list for PBXNativeTarget "Nav全屏滑动的modelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90518F461CB94CD7002ECDB2 /* Debug */,
+				90518F471CB94CD7002ECDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90518F481CB94CD7002ECDB2 /* Build configuration list for PBXNativeTarget "Nav全屏滑动的modelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90518F491CB94CD7002ECDB2 /* Debug */,
+				90518F4A1CB94CD7002ECDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90518F0D1CB94CD7002ECDB2 /* Project object */;
+}
